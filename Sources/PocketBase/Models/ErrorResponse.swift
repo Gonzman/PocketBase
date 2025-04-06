@@ -8,12 +8,12 @@
 import Foundation
 
 public struct ErrorResponse: Codable {
-  public let code: Int
+  public let status: Int
   public let message: String
   public let data: [String: SubErrResponse]
   
   public struct SubErrResponse: Codable {
-    public let code: String
+    public let status: String
     public let message: String
   }
 }
