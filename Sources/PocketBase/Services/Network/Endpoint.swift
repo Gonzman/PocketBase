@@ -67,7 +67,7 @@ extension Endpoint {
     return Endpoint<[String: String]>(
       method: .get,
       host: PocketBase<User>.host,
-      path: "/api/collections/\(collection)/records/\(id)",
+      path: id.isEmpty ? "/api/collections/\(collection)/records": "/api/collections/\(collection)/records/\(id)",
       queryItems: queryItems
     )
   }
