@@ -1,3 +1,6 @@
+# Important
+**All functions are at the level of the pre 0.23.x version of PocketBase, and the latest functions are not implemented.**
+
 # PocketBase
 
 The specific usage is similar to that provided by [pocketbase](https://pocketbase.io/docs/client-side-integration/).
