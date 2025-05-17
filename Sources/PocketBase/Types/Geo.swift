@@ -5,7 +5,7 @@
 //  Created by Yuki Schaefer on 17.05.25.
 //
 
-struct Geo{
+public struct Geo{
     var latitude: Double
     var longitude: Double
     
