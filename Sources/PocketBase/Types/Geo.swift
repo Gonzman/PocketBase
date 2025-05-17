@@ -6,8 +6,8 @@
 //
 
 public struct Geo: Codable, Hashable{
-    var latitude: Double
-    var longitude: Double
+    public let latitude: Double
+    public let longitude: Double
     
     init (latitude: Double, longitude: Double){
         self.latitude = latitude
