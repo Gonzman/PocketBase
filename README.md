@@ -1,5 +1,5 @@
 # Important
-**All functions are at the level of the pre 0.23.x version of PocketBase, and the latest functions are not implemented.**
+**All functions are at the level of the pre 0.23.x version of PocketBase, and the latest functions are not implemented. It should be compatible with the v0.26.6**
 
 # PocketBase
 
